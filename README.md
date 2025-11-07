@@ -1,10 +1,32 @@
 # `errnoname` - The `errno` Name Library
 
 `errnoname` is a C library that lets us get the
-symbolic name for each `errno` integer value.
+symbolic name for each `errno` integer value, by [mentalisttraceur](https://github.com/mentalisttraceur).
 
 
 # Usage
+
+## Installation
+
+Run:
+```bash
+$ npm i errnoname.c
+```
+
+And then include `errnoname.h` as follows:
+```c
+#include "node_modules/errnoname.c/errnoname.h"
+```
+
+You may also want to include `errnoname.c` as follows:
+```c
+#ifndef __ERRNONAME_C__
+#define __ERRNONAME_C__
+#include "node_modules/errnoname.c/errnoname.c"
+#endif
+```
+
+This will include both the function declaration and their definitions into a single file.
 
 ## API
 
@@ -112,3 +134,10 @@ You can also help by sharing your use-cases, what features
 you want, and design suggestions - the `errnoname`
 function is a good minimal foundation, but there might be
 other features or performance optimizations worth doing.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/errnoname.c)

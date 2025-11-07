@@ -1,0 +1,15 @@
+{
+  "name": "errnoname.c",
+  "version": "1.2025.5",
+  "description": "errnoname is a C library that lets us get the symbolic name for each errno integer value; mentalisttraceur (2019).",
+  "keywords": ["c", "library", "mpeg", "video", "writer", "no allocations", "minimalistic"],
+  "license": "BSD-0-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/errnoname.c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/errnoname.c/issues"
+  },
+  "homepage": "https://github.com/nodef/errnoname.c#readme"
+}
